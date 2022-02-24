@@ -44,8 +44,8 @@ export default function Itens(props: Props) {
 
   return (
     <div className={styles.itens}>
-      {lista.map(item => (
-        <Item key={item.id} {...item} />
+      {lista.map((item, index) => (
+        <Item key={index} {...item} />
       ))}
     </div>
   );
