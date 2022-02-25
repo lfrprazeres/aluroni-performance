@@ -9,7 +9,6 @@ import Sobre from 'pages/Sobre';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export default function AppRouter() {
-  console.log(Cardapio());
   return (
     <main className='container'>
       <Router>
